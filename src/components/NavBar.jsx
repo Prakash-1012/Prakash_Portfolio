@@ -19,7 +19,7 @@ const NavBar = ({ theme, setTheme }) => {
       <div className='text-white text-xl cursor-pointer'>
         <h1 className=' bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent font-semibold md:hover:text-2xl transition-all ease-in-out duration-100 tracking-wider animate-gradient'>Prakash Ranjan</h1>
       </div>
-      <div className='text-lg w-auto text-white flex gap-4'>
+      <div className='text-lg w-auto text-white flex gap-4 relative right-9'>
         <Link className='hover:border-b-2 transition-all duration-100 border-b-indigo-500 md:hover:text-2xl ease-in-out'>About</Link>
         <Link className='hover:border-b-2 border-b-indigo-500 transition-all duration-100 md:hover:text-2xl ease-in-out  '>Experience</Link>
         <Link className='hover:border-b-2  border-b-indigo-500 transition-all duration-100 md:hover:text-2xl ease-in-out '>Projects</Link>
