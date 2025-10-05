@@ -10,5 +10,9 @@
 @theme{
     --color-primary:#5044E5;
 }
+.opa:hover{
+    opacity: .5;
+    
+}
 
 

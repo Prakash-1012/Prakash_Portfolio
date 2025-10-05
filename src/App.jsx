@@ -12,12 +12,12 @@ const App = () => {
     AOS.init({
       duration: 1000, 
       once: true,     
-      offset: 100,    
+      offset: 150,    
     });
   }, []);
   return (
     <div className={theme==="dark"?'w-full h-screen bg-gradient-to-r from-slate-800 to-black':"bg-white"}>
-      <NavBar  theme={theme} setTheme={setTheme}/>
+      <NavBar theme={theme} setTheme={setTheme}/>
       <Greetings/>
     </div>
   )
