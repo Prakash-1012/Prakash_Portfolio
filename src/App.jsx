@@ -4,9 +4,11 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import"./index.css";
 import Greetings from './components/Greetings';
+import Connection from './components/connection';
+
 
 const App = () => {
-  const[theme,setTheme]=useState("dark");
+  const[theme,setTheme]=useState(localStorage.getItem("theme")?localStorage.getItem("theme"):"light");
 
   useEffect(() => {
     AOS.init({
@@ -19,6 +21,7 @@ const App = () => {
     <div className={theme==="dark"?'w-full h-screen bg-gradient-to-r from-slate-800 to-black':"bg-white"}>
       <NavBar theme={theme} setTheme={setTheme}/>
       <Greetings/>
+      <Connection/>
     </div>
   )
 }
