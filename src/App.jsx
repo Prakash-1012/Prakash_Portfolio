@@ -8,6 +8,8 @@ import Connection from './components/connection';
 import SideBar from './components/SideBar';
 import AboutMe from './components/AboutMe';
 import { Route, Routes } from 'react-router';
+import Skills from './components/Skills';
+
 
 
 const App = () => {
@@ -28,15 +30,13 @@ const App = () => {
 
     <div className={theme === "dark" ? 'w-screen h-full bg-gradient-to-r from-slate-800 to-black' : "w-screen h-screen bg-white"}>
 
-      <Routes>
-        <Route path='/components/AboutMe' element={<AboutMe />} />
-      </Routes>
 
       <NavBar openSideBar={openSideBar} setOpenSideBar={setOpenSideBar} theme={theme} setTheme={setTheme} />
       <SideBar openSideBar={openSideBar} setOpenSideBar={setOpenSideBar} />
       <Greetings />
       <Connection />
       <AboutMe />
+      <Skills/>
 
     </div>
   )

@@ -7,7 +7,7 @@ const Greetings = () => {
   return (
     <div data-aos="zoom-out" className={'max-md:size-fit flex w-full flex-col m-5 flex-wrap gap-9 justify-center items-center'}>
         <div className='text-slate-500'>
-            <h1 className='text-3xl md:text-6xl font-bold'>Hi,I'm <span className='bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent'>Prakash Ranjan</span></h1>
+            <h1 className='text-3xl md:text-6xl font-bold'>Hi,I'm <span className='bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent animate-gradient'>Prakash Ranjan</span></h1>
             <div className='w-full'><h2 className='font-bold text-2xl text-center m-5 '>Frontend Developer</h2></div>
 
         </div>

@@ -2,11 +2,11 @@ import React from 'react'
 
 const AboutMe = () => {
     return (
-        <div data-aos="fade-right" className='mt-35  w-screen h-full'>
+        <div id="AboutMe" data-aos="fade-right" className='mt-35 mb-5  w-screen h-full'>
             <div className='justify-center flex w-screen '>
-                <div className='bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent   text-6xl mt-5'>
+                <div className='bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent   text-6xl mt-5 animate-gradient'>
                     <h2>About Me</h2>
-                    <div className='flex w-66 mt-5 justify-center border-indigo-500  border-b-2 rounded-2xl'></div>
+                    <div className='flex w-66 mt-5 h-1 justify-center bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 rounded-2xl animate-gradient'></div>
                 </div>
             </div>
             <div className='p-5 lg:grid grid-cols-2 gap-12  m-10 lg:h-150 lg:w-full '>
