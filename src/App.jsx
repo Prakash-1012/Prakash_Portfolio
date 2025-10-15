@@ -9,6 +9,7 @@ import SideBar from './components/SideBar';
 import AboutMe from './components/AboutMe';
 import { Route, Routes } from 'react-router';
 import Skills from './components/Skills';
+import Education from './components/Education';
 
 
 
@@ -37,6 +38,7 @@ const App = () => {
       <Connection />
       <AboutMe />
       <Skills/>
+      <Education/>
 
     </div>
   )

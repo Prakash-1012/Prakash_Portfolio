@@ -8,15 +8,17 @@ import { DiNodejs } from "react-icons/di";
 import { FaDatabase } from "react-icons/fa6";
 import { FaGitAlt } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io";
+import { FaTools } from "react-icons/fa";
+
 
 
 
 
 const Skills = () => {
   return (
-    <div id="Skills" data-aos="fade-right" className='w-screen h-full text-center'>
+    <div id="Skills" data-aos="fade-right" className='w-screen mb-25 h-full '>
       <div className='flex justify-center'>
-        <div className='lg:flex-wrap justify-center text-transparent bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text max-lg:text-2xl lg:text-6xl animate-gradient '>
+        <div className='lg:flex-wrap justify-center text-transparent bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text max-lg:text-2xl lg:text-6xl animate-gradient font-semibold '>
           Skills And Expertise
           <div className='lg:mt-5 flex justify-center h-1  bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 lg:text-6xl animate-gradient rounded-full '>
           </div>
@@ -33,19 +35,19 @@ const Skills = () => {
             <FaReact className='text-blue-400 text-3xl mr-2 ' />
             <p className='text-white  font-bold text-center text-xl'>Frontend</p>
           </div>
-          <div className='p-2 mt-4 h-12 flex flex-col justify-center text-white hover:shadow-gray-700 bg-gray-700 rounded-lg hover:bg-gray-600'>
+          <div data-aos="zoom-out" className='p-2 mt-4 h-12 flex flex-col justify-center text-white hover:shadow-gray-700 bg-gray-700 rounded-lg hover:bg-gray-600'>
             <p className='text-md font-semibold'>
               <FaReact className='text-blue-400 text-2xl mr-2 inline' />
               React.js
             </p>
           </div>
-          <div className='p-2 mt-4 h-12 flex flex-col justify-center text-white hover:shadow-gray-700 bg-gray-700 rounded-lg hover:bg-gray-600'>
+          <div data-aos="zoom-out" className='p-2 mt-4 h-12 flex flex-col justify-center text-white hover:shadow-gray-700 bg-gray-700 rounded-lg hover:bg-gray-600'>
             <p className='text-md font-semibold'>
               <TbBrandJavascript className='text-blue-400 text-2xl mr-2  inline' />
               JavaScript
             </p>
           </div>
-          <div className='p-2 mt-4 h-12 flex flex-col justify-center text-white hover:shadow-gray-700 bg-gray-700 rounded-lg hover:bg-gray-600'>
+          <div data-aos="zoom-out" className='p-2 mt-4 h-12 flex flex-col justify-center text-white hover:shadow-gray-700 bg-gray-700 rounded-lg hover:bg-gray-600'>
             <p className='text-md font-semibold'>
               <RiTailwindCssFill className='text-blue-400 text-2xl mr-2  inline' />
               Tailwind CSS
@@ -62,50 +64,53 @@ const Skills = () => {
             <p className='text-white font-bold text-xl'>Backend</p>
           </div>
 
-          <div className='p-2 mt-4 h-12 flex flex-col justify-center text-white hover:shadow-gray-700 bg-gray-700 rounded-lg hover:bg-gray-600'>
+          <div data-aos="zoom-out" className='p-2 mt-4 h-12 flex flex-col justify-center text-white hover:shadow-gray-700 bg-gray-700 rounded-lg hover:bg-gray-600'>
             <p className='text-md font-semibold'>
-            <FaNodeJs className='text-blue-400  mr-2 text-2xl inline' />
+              <FaNodeJs className='text-blue-400  mr-2 text-2xl inline' />
 
 
               Node.js
             </p>
           </div>
-          <div className='p-2 mt-4 h-12 flex flex-col justify-center text-white hover:shadow-gray-700 bg-gray-700 rounded-lg hover:bg-gray-600'>
+          <div data-aos="zoom-out" className='p-2 mt-4 h-12 flex flex-col justify-center text-white hover:shadow-gray-700 bg-gray-700 rounded-lg hover:bg-gray-600'>
             <p className='text-md font-semibold'>
               <SiExpress className='text-blue-400 text-2xl mr-2 inline' />
               Express.js
             </p>
           </div>
-          <div className='p-2 mt-4 h-12 flex flex-col justify-center text-white hover:shadow-gray-700 bg-gray-700 rounded-lg hover:bg-gray-600'>
+          <div data-aos="zoom-out" className='p-2 mt-4 h-12 flex flex-col justify-center text-white hover:shadow-gray-700 bg-gray-700 rounded-lg hover:bg-gray-600'>
             <p className='text-md font-semibold'>
-              <FaDatabase className='text-blue-400 text-2xl mr-2 inline'/>
+              <FaDatabase className='text-blue-400 text-2xl mr-2 inline' />
 
               MangoDB
             </p>
           </div>
         </div>
-        <div className='w-90 m-5 p-10 h-120 outline-1  outline-gray-700 rounded-3xl bg-slate-800'>
-          <p className='text-white font-bold text-xl'>Tools and Technologies</p>
+        <div data-aos="zoom-out" className='w-90 m-5 p-10 h-120 outline-1  outline-gray-700 rounded-3xl bg-slate-800'>
+          <div className='flex justify-center'>
+            <FaTools className='text-indigo-500  mr-2 text-3xl' />
+            <p className='text-white font-bold text-xl'>Tools and Technologies</p>
+          </div>
 
-          <div className='p-2 mt-4 h-12 flex flex-col justify-center text-white hover:shadow-gray-700 bg-gray-700 rounded-lg hover:bg-gray-600'>
+          <div data-aos="zoom-out" className='p-2 mt-4 h-12 flex flex-col justify-center text-white hover:shadow-gray-700 bg-gray-700 rounded-lg hover:bg-gray-600'>
             <p className='text-md font-semibold'>
               <FaGitAlt className='text-blue-400 text-2xl mr-2 inline' />
 
               Git
             </p>
           </div>
-          <div className='p-2 mt-4 h-12 flex flex-col justify-center text-white hover:shadow-gray-700 bg-gray-700 rounded-lg hover:bg-gray-600'>
+          <div data-aos="zoom-out" className='p-2 mt-4 h-12 flex flex-col justify-center text-white hover:shadow-gray-700 bg-gray-700 rounded-lg hover:bg-gray-600'>
             <p className='text-md font-semibold'>
-             <IoLogoGithub className='text-blue-400 text-2xl mr-2 inline' />
+              <IoLogoGithub className='text-blue-400 text-2xl mr-2 inline' />
               GitHub
             </p>
           </div>
         </div>
       </div>
-      <div className='flex justify-center text-2xl mb-5 text-gray-200 font-semibold'>
+      <div data-aos="zoom-in" className='flex justify-center text-2xl mb-5 text-gray-200 font-semibold'>
         Soft Skills
       </div>
-      <div className='flex p-4 justify-center '>
+      <div data-aos="zoom-in" className='flex p-4 justify-center '>
         <div className='text-white bg-gradient-to-r flex p-2 justify-center mx-8 w-50 h-10 rounded-full  from-pink-500 via-purple-500 to-indigo-500 animate-gradient '>
           Communication
         </div>
@@ -119,13 +124,13 @@ const Skills = () => {
           Time Management
         </div>
       </div>
-      <div className='flex justify-center w-full h-40'>
-        <div className='p-2 bg-gradient-to-r w-250 h-40  from-pink-500 via-purple-500 to-indigo-500 animate-gradient rounded-3xl '>
-        <p className='font-semibold text-gray-200 text-3xl'>Certifications</p>
-        <div className='p-2 relative left-68 rounded-xl text-center m-3 text-lg w-100 h-17 bg-gray-800/20 text-gray-200'>
-          <span>Udemy:Java Data Structures And Algorithms Masterclass</span>
+      <div data-aos="zoom-in" className='lg:flex justify-center w-full lg:h-40'>
+        <div className='p-2 bg-gradient-to-r lg:w-250 lg:h-40  from-pink-500 via-purple-500 to-indigo-500 animate-gradient rounded-3xl '>
+          <p className='font-semibold text-center text-gray-200 text-3xl'>Certifications</p>
+          <div className='p-2 relative left-68 rounded-xl text-center m-3 text-lg lg:w-100 lg:h-17 bg-gray-800/20 text-gray-200'>
+            <span>Udemy:Java Data Structures And Algorithms Masterclass</span>
+          </div>
         </div>
-      </div>
       </div>
 
     </div>
