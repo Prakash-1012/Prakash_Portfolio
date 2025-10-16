@@ -4,9 +4,9 @@ const AboutMe = () => {
     return (
         <div id="AboutMe" data-aos="fade-right" className='mt-35 mb-5  w-screen h-full'>
             <div className='justify-center flex w-screen '>
-                <div className='bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent   text-6xl mt-5 animate-gradient font-semibold'>
+                <div className='bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent lg:text-6xl mt-5 animate-gradient font-semibold max-lg:text-4xl'>
                     <h2>About Me</h2>
-                    <div className='flex w-66 mt-5 h-1 justify-center bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 rounded-2xl animate-gradient'></div>
+                    <div className='lg:mt-5 flex justify-center h-1  bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 lg:text-6xl animate-gradient rounded-full'></div>
                 </div>
             </div>
             <div data-aos="zoom-in" className='p-5 lg:grid grid-cols-2 gap-12  m-10 lg:h-150 lg:w-full '>

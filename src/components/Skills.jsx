@@ -18,18 +18,18 @@ const Skills = () => {
   return (
     <div id="Skills" data-aos="fade-right" className='w-screen mb-25 h-full '>
       <div className='flex justify-center'>
-        <div className='lg:flex-wrap justify-center text-transparent bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text max-lg:text-2xl lg:text-6xl animate-gradient font-semibold '>
+        <div className='lg:flex-wrap justify-center text-transparent bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text max-lg:text-4xl lg:text-6xl animate-gradient font-semibold '>
           Skills And Expertise
           <div className='lg:mt-5 flex justify-center h-1  bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 lg:text-6xl animate-gradient rounded-full '>
           </div>
 
         </div>
       </div>
-      <div className='text-gray-400 font-semibold mt-5 lg:text-lg flex justify-center  '>
+      <div className='text-gray-400 max-lg:text-center font-semibold mt-5 lg:text-lg max-lg:w-120 lg:flex justify-center  '>
         <p>A comprehensive overview of my technical skills and proficiencies in modern web development technologies
         </p>
       </div>
-      <div className='lg:grid grid-cols-3 px-20 place-content-evenly mb-5 '>
+      <div className='lg:grid grid-cols-3 lg:px-20 place-content-evenly mb-5 max-lg:p-12 '>
         <div className='w-90 m-5 p-10 h-120 outline-1  outline-gray-700 rounded-3xl bg-slate-800'>
           <div className='flex justify-center'>
             <FaReact className='text-blue-400 text-3xl mr-2 ' />
@@ -110,24 +110,24 @@ const Skills = () => {
       <div data-aos="zoom-in" className='flex justify-center text-2xl mb-5 text-gray-200 font-semibold'>
         Soft Skills
       </div>
-      <div data-aos="zoom-in" className='flex p-4 justify-center '>
-        <div className='text-white bg-gradient-to-r flex p-2 justify-center mx-8 w-50 h-10 rounded-full  from-pink-500 via-purple-500 to-indigo-500 animate-gradient '>
+      <div data-aos="zoom-in" className='lg:flex max-lg:grid grid-cols-2 max-lg:gap-5 lg:p-4 max-lg:pb-4 justify-center '>
+        <div className='text-white bg-gradient-to-r flex p-2 justify-center lg:mx-8 max-lg:mx-4 w-50 h-10 rounded-full  from-pink-500 via-purple-500 to-indigo-500 animate-gradient '>
           Communication
         </div>
-        <div className='text-white bg-gradient-to-r flex p-2 justify-center mx-8 w-50 h-10 rounded-full  from-pink-500 via-purple-500 to-indigo-500 animate-gradient'>
+        <div className='text-white bg-gradient-to-r flex p-2 justify-center lg:mx-8 max-lg:mx-4 w-50 h-10 rounded-full  from-pink-500 via-purple-500 to-indigo-500 animate-gradient'>
           Problem-Solving
         </div>
-        <div className='text-white bg-gradient-to-r flex p-2 justify-center mx-8 w-50 h-10 rounded-full  from-pink-500 via-purple-500 to-indigo-500 animate-gradient'>
+        <div className='text-white bg-gradient-to-r flex p-2 justify-center lg:mx-8 max-lg:mx-4 w-50 h-10 rounded-full  from-pink-500 via-purple-500 to-indigo-500 animate-gradient'>
           Teamwork
         </div>
-        <div className='text-white bg-gradient-to-r flex p-2 justify-center mx-8 w-50 h-10 rounded-full  from-pink-500 via-purple-500 to-indigo-500 animate-gradient'>
+        <div className='text-white bg-gradient-to-r flex p-2 justify-center lg:mx-8 max-lg:mx-4 w-50 h-10 rounded-full  from-pink-500 via-purple-500 to-indigo-500 animate-gradient'>
           Time Management
         </div>
       </div>
-      <div data-aos="zoom-in" className='lg:flex justify-center w-full lg:h-40'>
-        <div className='p-2 bg-gradient-to-r lg:w-250 lg:h-40  from-pink-500 via-purple-500 to-indigo-500 animate-gradient rounded-3xl '>
+      <div data-aos="zoom-in" className='flex justify-center w-full lg:h-40'>
+        <div className='p-2 bg-gradient-to-r max-lg:text-center lg:w-250 max-lg:w-120 lg:h-40  from-pink-500 via-purple-500 to-indigo-500 animate-gradient rounded-3xl '>
           <p className='font-semibold text-center text-gray-200 text-3xl'>Certifications</p>
-          <div className='p-2 relative left-68 rounded-xl text-center m-3 text-lg lg:w-100 lg:h-17 bg-gray-800/20 text-gray-200'>
+          <div className='p-2 lg:relative left-68 rounded-xl text-center m-3 text-lg lg:w-100 lg:h-17 bg-gray-800/20 text-gray-200'>
             <span>Udemy:Java Data Structures And Algorithms Masterclass</span>
           </div>
         </div>

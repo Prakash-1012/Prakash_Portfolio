@@ -34,11 +34,13 @@ const App = () => {
 
       <NavBar openSideBar={openSideBar} setOpenSideBar={setOpenSideBar} theme={theme} setTheme={setTheme} />
       <SideBar openSideBar={openSideBar} setOpenSideBar={setOpenSideBar} />
+      <main className='pt-[80px]'>
       <Greetings />
       <Connection />
       <AboutMe />
       <Skills/>
       <Education/>
+      </main>
 
     </div>
   )

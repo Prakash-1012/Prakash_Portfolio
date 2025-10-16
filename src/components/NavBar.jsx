@@ -15,7 +15,7 @@ const NavBar = ({ theme, setTheme,openSideBar,setOpenSideBar }) => {
 
   },[theme])
   return (
-    <div data-aos="fade-right" className='flex w-full h-15 justify-between items-center p-12  bg-gradient-to-r from-slate-800 to-black'>
+    <div data-aos="fade-right" className='flex z-[9999] fixed w-full h-15 justify-between items-center p-12  bg-gradient-to-r from-slate-800 to-black'>
       <div className='text-white text-xl cursor-pointer'>
         <h1 className=' bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent font-semibold md:hover:text-2xl transition-all ease-in-out duration-300 tracking-wider animate-gradient'>Prakash Ranjan</h1>
       </div>

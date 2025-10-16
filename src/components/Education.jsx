@@ -11,21 +11,21 @@ const Education = () => {
     return (
         <div id="Education" data-aos="fade-right" className='w-screen h-screen'>
             <div className='flex justify-center'>
-                <div data-aos="zoom-in" className='lg:flex-wrap justify-center text-transparent bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text max-lg:text-2xl lg:text-6xl animate-gradient font-semibold '>
+                <div data-aos="zoom-in" className='justify-center text-transparent bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text max-lg:text-4xl lg:text-6xl animate-gradient font-semibold '>
                     Education
                     <div className='lg:mt-5 flex justify-center h-1  bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 lg:text-6xl animate-gradient rounded-full '>
                     </div>
                 </div>
             </div>
-            <div data-aos="zoom-out" className='text-gray-400 flex justify-center m-7 text-xl '>
+            <div data-aos="zoom-out" className='text-gray-400 max-lg:text-center font-semibold mt-5 lg:text-lg  lg:flex justify-center '>
                 Computer Science Engineering student passionate about coding, problem-solving, and technology.
             </div>
 
-            <div data-aos="fade-down" className='flex justify-center'>
-                <div className='w-210 p-5 h-85 border-1 border-t-0 border-gray-700 rounded-3xl grid grid-cols-2 gap-8'>
+            <div data-aos="fade-down" className='flex justify-center mt-5'>
+                <div className='lg:w-210 p-5 lg:h-85 border-1 border-t-0 border-gray-700 rounded-3xl max-lg:flex max-lg:flex-col lg:grid lg:grid-cols-2 gap-8'>
                     <div>
                     <div className='flex gap-4'>
-                        <div className='bg-gradient-to-r from-pink-500 via-purple-500 rounded-full to-indigo-500 w-18 h-14 flex justify-center items-center animate-gradient'>
+                        <div className='bg-gradient-to-r from-pink-500 via-purple-500 rounded-full to-indigo-500 lg:w-18 lg:h-14 flex justify-center items-center animate-gradient'>
                             <GiGraduateCap className='text-4xl text-white' />
                         </div>
                         <div className='flex flex-wrap w-100 h-10 items-center'>

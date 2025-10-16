@@ -5,7 +5,7 @@ const Connection = () => {
     <div className='flex dark:text-gray-400 justify-center mt-20 gap-8 text-3xl'>
         <a className='hover:-translate-y-3 dark:hover:text-white transition-all duration-300 ease-in-out' href="https://github.com/Prakash-1012"><i className="fi fi-brands-github"></i></a>
         <a className='hover:-translate-y-3 dark:hover:text-white transition-all duration-300 ease-in-out' href="https://www.linkedin.com/in/prakash-ranjan-prasad-bb5093376/"><i className="fi fi-brands-linkedin"></i></a>
-        <a className='hover:-translate-y-3 dark:hover:text-white transition-all duration-300 ease-in-out' href=""> <i className="fi fi-sr-envelope"></i></a>
+        <a className='hover:-translate-y-3 dark:hover:text-white transition-all duration-300 ease-in-out' href="mailto:mishuraj123456789@gmail.com"> <i className="fi fi-sr-envelope"></i></a>
     </div>
   )
 }
