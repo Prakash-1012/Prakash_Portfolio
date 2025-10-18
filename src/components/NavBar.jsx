@@ -25,7 +25,7 @@ const NavBar = ({ theme, setTheme,openSideBar,setOpenSideBar }) => {
         <a className='hover:border-b-2  border-b-indigo-500 transition-all duration-300 md:hover:text-2xl hover:text-indigo-500 ease-in-out '>Projects</a>
         <a href='#Skills' className='hover:border-b-2  border-b-indigo-500 transition-all duration-300 md:hover:text-2xl hover:text-indigo-500 ease-in-out '>Skills</a>
         <a href='#Education' className='hover:border-b-2  border-b-indigo-500 transition-all duration-300 md:hover:text-2xl hover:text-indigo-500 ease-in-out '>Education</a>
-        <a className='hover:border-b-2  border-b-indigo-500 transition-all duration-300 ease-in-out hover:text-indigo-500 hover:text-2xl'>Contact</a>
+        <a href='#GetInTouch' className='hover:border-b-2  border-b-indigo-500 transition-all duration-300 ease-in-out hover:text-indigo-500 hover:text-2xl'>Contact</a>
       </div>
        <div className={theme === "dark" ? " max-md:absolute right-25 text-white outline-1 outline-gray-500 size-8.5 p-1 rounded-full text-center " : " max-md:absolute right-25 bg-white  size-8.5 p-1 rounded-full text-center "}>
           <button className='cursor-pointer '>{theme === "dark" ? <img onClick={()=>setTheme("light")} src='/src/assets/sun_icon.svg' alt=''></img> : <img onClick={()=>setTheme("dark")} src='/src/assets/moon_icon.svg'></img>}</button>          

@@ -10,6 +10,7 @@ import AboutMe from './components/AboutMe';
 import { Route, Routes } from 'react-router';
 import Skills from './components/Skills';
 import Education from './components/Education';
+import GetInTouch from './components/GetInTouch';
 
 
 
@@ -40,6 +41,7 @@ const App = () => {
       <AboutMe />
       <Skills/>
       <Education/>
+      <GetInTouch/>
       </main>
 
     </div>

@@ -15,7 +15,7 @@ const Greetings = () => {
             <p>Passionate Frontend Developer skilled in building responsive and dynamic web applications using JavaScript, React.js, and Tailwind CSS. I specialize in crafting clean user interfaces with seamless user experiences, focusing on performance, reusability, and modern design principles.</p>
         </div>
         <div className='max-md:flex-col flex mb-10 gap-7'>
-            <Link className='flex gap-3 px-10 py-5  mx-5 font-bold text-indigo-500 bg-gray-900 md:hover:text-xl  hover:bg-gray-800 rounded-full transition-all duration-300 ease-in-out whitespace-nowrap'>Get in Touch <img src="/src/assets/arrow.svg" alt="" /></Link>
+            <a href="#GetInTouch" className='flex gap-3 px-10 py-5  mx-5 font-bold text-indigo-500 bg-gray-900 md:hover:text-xl  hover:bg-gray-800 rounded-full transition-all duration-300 ease-in-out whitespace-nowrap'>Get in Touch <img src="/src/assets/arrow.svg" alt="" /></a>
            <div>
              <button className='outline-2 outline-gray-500 rounded-full px-10 py-5 dark:text-white font-bold mx-5 hover:text-indigo-500 transition-all md:hover:text-xl duration-300 ease-in-out hover:bg-gray-900 whitespace-nowrap'><a className="flex gap-3 text-md " href="">Download CV <i className="fi fi-rr-download"></i></a></button>
            </div>
