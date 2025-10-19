@@ -17,12 +17,12 @@ const Education = () => {
                     </div>
                 </div>
             </div>
-            <div data-aos="zoom-out" className='text-gray-400 max-lg:text-center font-semibold mt-5 lg:text-lg  lg:flex justify-center '>
+            <div data-aos="zoom-out" className='text-gray-400 max-lg:text-center font-semibold mt-5 lg:text-lg max-lg:w-100 max-lg:pl-25 lg:flex justify-center '>
                 Computer Science Engineering student passionate about coding, problem-solving, and technology.
             </div>
 
             <div data-aos="fade-down" className='flex justify-center mt-5'>
-                <div className='lg:w-210 p-5 lg:h-85 border-1 border-t-0 border-gray-700 rounded-3xl max-lg:flex max-lg:flex-col lg:grid lg:grid-cols-2 gap-8'>
+                <div className='max-lg:w-100 lg:w-210 p-5 lg:h-85 border-1 border-t-0 border-gray-700 rounded-3xl max-lg:mt-5 max-lg:flex max-lg:flex-col lg:grid lg:grid-cols-2 gap-8'>
                     <div>
                     <div className='flex gap-4'>
                         <div className='bg-gradient-to-r from-pink-500 via-purple-500 rounded-full to-indigo-500 lg:w-18 lg:h-14 flex justify-center items-center animate-gradient'>
