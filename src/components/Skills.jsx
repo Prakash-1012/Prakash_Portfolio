@@ -30,9 +30,9 @@ const Skills = () => {
         </p>
       </div>
       <div className='lg:grid grid-cols-3 lg:px-20 place-content-evenly mb-5 max-lg:p-12 '>
-        <div className='w-90 lg:m-5 lg:p-10 h-120 outline-1 max-sm:w-60  outline-gray-700 rounded-3xl bg-slate-800'>
+        <div className='w-90 lg:m-5 lg:p-10 lg:h-120 outline-1 max-sm:w-70 max-sm:p-5  outline-gray-700 rounded-3xl bg-slate-800'>
           <div className='flex justify-center'>
-            <FaReact className='text-blue-400 text-3xl mr-2 ' />
+            <FaReact className='text-blue-400 lg:text-3xl mr-2 ' />
             <p className='text-white  font-bold text-center text-xl'>Frontend</p>
           </div>
           <div data-aos="zoom-out" className='p-2 mt-4 h-12 flex flex-col justify-center text-white hover:shadow-gray-700 bg-gray-700 rounded-lg hover:bg-gray-600'>
