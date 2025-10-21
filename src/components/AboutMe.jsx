@@ -16,7 +16,7 @@ const AboutMe = () => {
                     <p className='font-semibold text-gray-400 lg:text-lg m-5'>I’m driven by a passion for achieving meaningful results through clean design and efficient code. As a problem solver, I enjoy tackling complex challenges and finding creative, practical solutions. I value teamwork and collaboration, believing that great products are built when ideas are shared and improved together. Whether working independently or as a team player, I’m always focused on delivering quality outcomes that make a real impact.</p>
                 </div>
 
-                <div data-aos="zoom-in" className='outline-2 outline-gray-600 max-sm:w-80 md:w-120 lg:h-70 box-border shadow-indigo-500 rounded-2xl p-5'>
+                <div data-aos="zoom-in" className='outline-2 outline-gray-600 md:w-120 lg:h-70 box-border shadow-indigo-500 rounded-2xl p-5'>
                     <h1 className='text-white font-semibold lg:text-2xl'>At A Glance </h1>
                     <div className=' pt-5'>
                        <div className='flex text-gray-400 flex-col font-semibold justify-evenly h-50'>
