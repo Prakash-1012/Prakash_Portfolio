@@ -22,7 +22,7 @@ const Education = () => {
             </div>
 
             <div data-aos="fade-down" className='flex justify-center mt-5'>
-                <div className='max-lg:w-100 lg:w-210 p-5 lg:h-85 border-1 border-t-0 border-gray-700 rounded-3xl max-lg:mt-5 max-lg:flex max-lg:flex-col lg:grid lg:grid-cols-2 gap-8 max-sm:w-90'>
+                <div className='max-lg:w-100 lg:w-210 p-5 lg:h-85 border-1 border-t-0 border-gray-700 rounded-3xl max-lg:mt-5 max-lg:flex max-lg:flex-col lg:grid lg:grid-cols-2 gap-8 max-sm:w-80'>
                     <div>
                     <div className='flex gap-4'>
                         <div className='bg-gradient-to-r from-pink-500 via-purple-500 rounded-full to-indigo-500 lg:w-18 lg:h-14 flex justify-center items-center animate-gradient'>
@@ -33,7 +33,7 @@ const Education = () => {
                             <p className='  text-indigo-500 text-lg font-semibold'>Computer Science And Engineering</p>
                         </div>
                     </div>
-                    <div className='mt-8 flex gap-4'>
+                    <div className='lg:mt-8 max-sm:mt-17 flex gap-4'>
                         <FaUniversity className='text-blue-500 text-2xl'/>
                         <div>
                             <p className='text-white text-lg font-semibold'>Sharda University</p>
