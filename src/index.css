@@ -21,7 +21,11 @@
   background-size: 200% 200%;
   animation: gradient-move 3s ease infinite;
 }
-
+@media (max-width:640px){
+  html,body,#root{
+    overflow-x: hidden;
+  }
+}
 
 
 
