@@ -31,7 +31,7 @@ const App = () => {
 
   return (
 
-    <div className={theme === "dark" ? 'w-screen h-full pb-15 bg-gradient-to-r from-slate-800 to-black' : "w-screen h-screen bg-gray-50 pb-15"}>
+    <div className={theme === "dark" ? 'w-full h-full pb-15 bg-gradient-to-r from-slate-800 to-black' : "w-full h-screen bg-gray-50 pb-15"}>
 
 
       <NavBar openSideBar={openSideBar} setOpenSideBar={setOpenSideBar} theme={theme} setTheme={setTheme} />
@@ -43,7 +43,7 @@ const App = () => {
       <Skills/>
       <Education/>
       <GetInTouch/>
-      {/* <Footer/> */}
+      <Footer/>
       </main>
 
     </div>
