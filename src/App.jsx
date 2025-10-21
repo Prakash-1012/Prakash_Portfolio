@@ -43,7 +43,7 @@ const App = () => {
       <Skills/>
       <Education/>
       <GetInTouch/>
-      <Footer/>
+      {/* <Footer/> */}
       </main>
 
     </div>
