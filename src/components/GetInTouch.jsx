@@ -99,7 +99,7 @@ const GetInTouch = () => {
                         <h1 className='text-gray-700 dark:text-white text-2xl font-bold mb-2'>Send a Message</h1>
                     </div>
                     <form action="" ref={form} onSubmit={handleMessage}>
-                        <div className='flex max-lg:flex-col lg:gap-10 mb-5'>
+                        <div className='flex max-lg:flex-col items-start lg:gap-10 mb-5'>
                             <div className='max-lg:flex flex-col mb-2'>
                                 <label htmlFor="name" className='text-sm  mb-2 dark:text-gray-300 text-gray-700 font-semibold'>Name*</label>
                                 <input name='name' id='name' required className='dark:text-white border-[2px] p-3 rounded-lg focus:border-indigo-500 border-gray-300 dark:border-gray-700 dark:bg-gray-600 outline-none placeholder:text-gray-400 placeholder:font-semibold max-lg:w-95' type="text" placeholder='Your Name' />
