@@ -109,12 +109,12 @@ const GetInTouch = () => {
                                 <input name='email' id='email' required className='dark:text-white border-[2px] p-3 rounded-lg focus:border-indigo-500 border-gray-300 dark:border-gray-700 dark:bg-gray-600 outline-none  placeholder:text-gray-400 placeholder:font-semibold max-lg:w-95' type="text" placeholder='abc@gmail.com' />
                             </div>
                         </div>
-                        <div className='mb-5 flex flex-col'>
+                        <div className='mb-5 flex flex-1 flex-col'>
                             <label htmlFor="subject" className='text-sm  mb-2 dark:text-gray-300 text-gray-700 font-semibold'>Subject*</label>
                             <input name='subject' id="subject" required className='dark:text-white lg:w-[453px] border-[2px] p-3 rounded-lg focus:border-indigo-500 border-gray-300 dark:border-gray-700 dark:bg-gray-600 outline-none  placeholder:text-gray-400 placeholder:font-semibold max-lg:w-95' type="text" placeholder="What's this about" />
                         </div>
 
-                        <div className='mb-5 max-lg:flex flex-col'>
+                        <div className='mb-5 max-lg:flex flex-1 flex-col'>
                             <label htmlFor="message" className='text-sm  mb-2 dark:text-gray-300 text-gray-700 font-semibold'>Message*</label>
                             <textarea name='message' required id='message' className='text-white lg:w-[453px] h-40 border-[2px] p-3 rounded-lg focus:border-indigo-500 border-gray-300 dark:border-gray-700 dark:bg-gray-600 outline-none placeholder:text-gray-400 placeholder:font-semibold max-lg:w-95' type="text" placeholder="Tell me about your project or just say hii!" />
                         </div>
