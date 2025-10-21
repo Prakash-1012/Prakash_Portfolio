@@ -29,7 +29,7 @@ const Skills = () => {
         <p>A comprehensive overview of my technical skills and proficiencies in modern web development technologies
         </p>
       </div>
-      <div className='lg:grid grid-cols-3 lg:px-20 place-content-evenly mb-5 max-lg:p-12 '>
+      <div className='lg:grid grid-cols-3 lg:px-20 place-content-evenly mb-5 max-lg:p-12 max-sm:p-0 '>
         <div className='w-90 lg:m-5 lg:p-10 lg:h-120 outline-1 max-sm:w-70 max-sm:p-5  outline-gray-700 rounded-3xl bg-slate-800 max-sm:mb-5'>
           <div className='flex justify-center'>
             <FaReact className='text-blue-400 text-3xl mr-2 ' />
