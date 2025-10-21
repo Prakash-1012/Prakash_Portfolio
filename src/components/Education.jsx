@@ -17,7 +17,7 @@ const Education = () => {
                     </div>
                 </div>
             </div>
-            <div data-aos="zoom-out" className='max-sm:text-sm max-sm:w-80 text-gray-400 max-lg:text-center font-semibold mt-5 lg:text-lg max-lg:w-100 max-lg:pl-25 lg:flex justify-center max-sm:ml-4 '>
+            <div data-aos="zoom-out" className='max-sm:text-sm max-sm:w-80 text-gray-400 font-semibold mt-5 lg:text-lg  lg:flex justify-center max-sm:ml-4 '>
                 Computer Science Engineering student passionate about coding, problem-solving, and technology.
             </div>
 
