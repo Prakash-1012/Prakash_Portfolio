@@ -22,7 +22,7 @@
   animation: gradient-move 3s ease infinite;
 }
 html,body,#root{
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 
 }
 
