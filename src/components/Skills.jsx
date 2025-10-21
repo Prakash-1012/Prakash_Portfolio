@@ -125,9 +125,9 @@ const Skills = () => {
         </div>
       </div>
       <div data-aos="zoom-in" className='flex justify-center w-full lg:h-40'>
-        <div className='p-2 bg-gradient-to-r max-lg:text-center max-sm:w-90 lg:w-250 max-lg:w-120 lg:h-40  from-pink-500 via-purple-500 to-indigo-500 animate-gradient rounded-3xl '>
+        <div className='p-2 bg-gradient-to-r max-lg:text-center max-sm:w-80 lg:w-250 max-lg:w-120 lg:h-40  from-pink-500 via-purple-500 to-indigo-500 animate-gradient rounded-3xl '>
           <p className='font-semibold text-center text-gray-200 max-sm:text-lg lg:text-3xl'>Certifications</p>
-          <div className='p-2 lg:relative left-68 rounded-xl text-center m-3 max-sm:text-sm lg:text-lg lg:w-100 lg:h-17 bg-gray-800/20 text-gray-200'>
+          <div className='p-2 lg:relative left-68 rounded-xl text-center m-3 max-sm:text-sm lg:text-lg lg:w-100 lg:h-17 max-sm:w-70 bg-gray-800/20 text-gray-200'>
             <span>Udemy:Java Data Structures And Algorithms Masterclass</span>
           </div>
         </div>
