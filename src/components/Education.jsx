@@ -11,7 +11,7 @@ const Education = () => {
     return (
         <div id="Education" data-aos="fade-right" className='w-screen h-full  mb-25'>
             <div className='flex justify-center'>
-                <div data-aos="zoom-in" className='justify-center text-transparent bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text max-sm:text-4xl lg:text-6xl animate-gradient font-bold '>
+                <div data-aos="zoom-in" className='justify-center text-transparent bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text max-sm:text-2xl lg:text-6xl animate-gradient font-bold '>
                     Education
                     <div className='lg:mt-5 flex justify-center h-1  bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 lg:text-6xl animate-gradient rounded-full '>
                     </div>

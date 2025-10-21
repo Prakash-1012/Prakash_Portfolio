@@ -31,7 +31,7 @@ const GetInTouch = () => {
     return (
         <div id="GetInTouch" data-aos="fade-right" className='w-screen h-full mb-10'>
             <div className='flex justify-center'>
-                <div data-aos="zoom-in" className='justify-center text-transparent bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text max-lg:text-4xl lg:text-6xl animate-gradient font-semibold '>
+                <div data-aos="zoom-in" className='justify-center text-transparent bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text max-sm:text-2xl lg:text-6xl animate-gradient font-semibold '>
                     Get In Touch
                     <div className='lg:mt-5 flex justify-center h-1  bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 lg:text-6xl animate-gradient rounded-full '>
                     </div>
@@ -94,7 +94,7 @@ const GetInTouch = () => {
                         </div>
                     </div>
                 </div>
-                <div className='rounded-lg border-gray-700 shadow-gray-800 shadow-sm border-[.5px] max-lg:pl-5 lg:pl-10 pt-5 max-lg:w-110 max-sm:w-90 lg:w-140 max-lg:h-160 lg:h-150 dark:bg-gray-800'>
+                <div className='rounded-lg border-gray-700 shadow-gray-800 shadow-sm border-[.5px] max-lg:pl-5 lg:pl-10 pt-5 max-lg:w-110 max-sm:w-80 lg:w-140 max-lg:h-160 lg:h-150 dark:bg-gray-800'>
                     <div>
                         <h1 className='text-gray-700 dark:text-white text-2xl font-bold mb-2'>Send a Message</h1>
                     </div>
@@ -102,24 +102,24 @@ const GetInTouch = () => {
                         <div className='flex max-lg:flex-col items-start lg:gap-10 mb-5'>
                             <div className='max-lg:flex flex-col mb-2'>
                                 <label htmlFor="name" className='text-sm  mb-2 dark:text-gray-300 text-gray-700 font-semibold'>Name*</label>
-                                <input name='name' id='name' required className='dark:text-white border-[2px] p-3 rounded-lg focus:border-indigo-500 border-gray-300 dark:border-gray-700 dark:bg-gray-600 outline-none placeholder:text-gray-400 placeholder:font-semibold max-sm:w-80 max-lg:w-95' type="text" placeholder='Your Name' />
+                                <input name='name' id='name' required className='dark:text-white border-[2px] p-3 rounded-lg focus:border-indigo-500 border-gray-300 dark:border-gray-700 dark:bg-gray-600 outline-none placeholder:text-gray-400 placeholder:font-semibold max-sm:w-70 max-lg:w-95' type="text" placeholder='Your Name' />
                             </div>
                             <div className='max-lg:flex flex-col'>
                                 <label htmlFor="email" className='text-sm  mb-2 dark:text-gray-300 text-gray-700 font-semibold'>Email*</label>
-                                <input name='email' id='email' required className='dark:text-white border-[2px] p-3 rounded-lg focus:border-indigo-500 border-gray-300 dark:border-gray-700 dark:bg-gray-600 outline-none  placeholder:text-gray-400 placeholder:font-semibold max-sm:w-80 max-lg:w-95' type="text" placeholder='abc@gmail.com' />
+                                <input name='email' id='email' required className='dark:text-white border-[2px] p-3 rounded-lg focus:border-indigo-500 border-gray-300 dark:border-gray-700 dark:bg-gray-600 outline-none  placeholder:text-gray-400 placeholder:font-semibold max-sm:w-70 max-lg:w-95' type="text" placeholder='abc@gmail.com' />
                             </div>
                         </div>
                         <div className='mb-5 flex flex-1 flex-col'>
                             <label htmlFor="subject" className='text-sm  mb-2 dark:text-gray-300 text-gray-700 font-semibold'>Subject*</label>
-                            <input name='subject' id="subject" required className='dark:text-white lg:w-[453px] border-[2px] p-3 rounded-lg focus:border-indigo-500 border-gray-300 dark:border-gray-700 dark:bg-gray-600 outline-none  placeholder:text-gray-400 placeholder:font-semibold max-sm:w-80 max-lg:w-95' type="text" placeholder="What's this about" />
+                            <input name='subject' id="subject" required className='dark:text-white lg:w-[453px] border-[2px] p-3 rounded-lg focus:border-indigo-500 border-gray-300 dark:border-gray-700 dark:bg-gray-600 outline-none  placeholder:text-gray-400 placeholder:font-semibold max-sm:w-70 max-lg:w-95' type="text" placeholder="What's this about" />
                         </div>
 
                         <div className='mb-5 max-lg:flex flex-1 flex-col'>
                             <label htmlFor="message" className='text-sm  mb-2 dark:text-gray-300 text-gray-700 font-semibold'>Message*</label>
-                            <textarea name='message' required id='message' className='text-white lg:w-[453px] h-40 border-[2px] p-3 rounded-lg focus:border-indigo-500 border-gray-300 dark:border-gray-700 dark:bg-gray-600 outline-none placeholder:text-gray-400 placeholder:font-semibold max-sm:w-80 max-lg:w-95' type="text" placeholder="Tell me about your project or just say hii!" />
+                            <textarea name='message' required id='message' className='text-white lg:w-[453px] h-40 border-[2px] p-3 rounded-lg focus:border-indigo-500 border-gray-300 dark:border-gray-700 dark:bg-gray-600 outline-none placeholder:text-gray-400 placeholder:font-semibold max-sm:w-70 max-lg:w-95' type="text" placeholder="Tell me about your project or just say hii!" />
                         </div>
 
-                        <button type='submit' className='lg:w-[453px] mb-5 flex justify-center items-center text-xl text-white font-semibold bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 h-15 rounded-lg hover:opacity-80 animate-gradient max-sm:w-80 max-lg:w-95'>
+                        <button type='submit' className='lg:w-[453px] mb-5 flex justify-center items-center text-xl text-white font-semibold bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 h-15 rounded-lg hover:opacity-80 animate-gradient max-sm:w-70 max-lg:w-95'>
                             Send Message
                         </button>
                     </form>
