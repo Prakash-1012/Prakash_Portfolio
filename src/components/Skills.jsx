@@ -110,7 +110,7 @@ const Skills = () => {
       <div data-aos="zoom-in" className='flex justify-center text-2xl mb-5 text-gray-200 font-semibold'>
         Soft Skills
       </div>
-      <div data-aos="zoom-in" className='lg:flex max-sm:grid-cols-1 max-lg:grid grid-cols-2 max-lg:gap-5 max-sm:conten lg:p-4 max-lg:pb-4 justify-center '>
+      <div data-aos="zoom-in" className='lg:flex max-sm:flex max-sm:flex-wrap max-sm:w-120 max-sm:relative left-3 max-lg:grid grid-cols-2 max-lg:gap-5 max-sm:conten lg:p-4 max-lg:pb-4 justify-center '>
         <div className='text-white bg-gradient-to-r flex p-2 justify-center lg:mx-8 max-lg:mx-4 w-50 h-10 rounded-full  from-pink-500 via-purple-500 to-indigo-500 animate-gradient '>
           Communication
         </div>
