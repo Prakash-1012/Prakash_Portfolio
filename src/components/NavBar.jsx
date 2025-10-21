@@ -1,6 +1,9 @@
 import React, { useEffect } from 'react'
 import Greetings from './Greetings';
 import SideBar from './SideBar';
+import { IoSunnyOutline } from "react-icons/io5";
+import { FaMoon } from "react-icons/fa";
+
 
 
 const NavBar = ({ theme, setTheme,openSideBar,setOpenSideBar }) => {
@@ -26,8 +29,8 @@ const NavBar = ({ theme, setTheme,openSideBar,setOpenSideBar }) => {
         <a href='#Education' className='hover:border-b-2  border-b-indigo-500 transition-all duration-300 md:hover:text-2xl hover:text-indigo-500 ease-in-out '>Education</a>
         <a href='#GetInTouch' className='hover:border-b-2  border-b-indigo-500 transition-all duration-300 ease-in-out hover:text-indigo-500 hover:text-2xl'>Contact</a>
       </div>
-       <div className={theme === "dark" ? " max-md:absolute right-25 text-white outline-1 outline-gray-500 size-8.5 p-1 rounded-full text-center " : " max-md:absolute right-25 bg-white ouline-1 outline-black  size-8.5 p-1 rounded-full text-center "}>
-          <button className='cursor-pointer '>{theme === "dark" ? <img onClick={()=>setTheme("light")} src='/src/assets/sun_icon.svg' alt=''></img> : <img onClick={()=>setTheme("dark")} src='/src/assets/moon_icon.svg'></img>}</button>          
+       <div className={theme === "dark" ? " max-md:absolute right-25 text-white outline-1 outline-gray-500 size-8.5 p-1 rounded-full text-center " : " max-md:absolute right-25 bg-white size-8.5 p-1 rounded-full text-center "}>
+          <button className='cursor-pointer '>{theme === "dark" ? <div onClick={()=>setTheme("light")}><IoSunnyOutline className='text-2xl'/> </div> : <div className='outline-1 outline-gray-700 rounded-full size-8.5 flex justify-center items-center ' onClick={()=>setTheme("dark")}><FaMoon className='text-xl'/></div>}</button>          
         </div>
          <button className='relative top-[5px] md:hidden cursor-pointer text-[35px]' onClick={()=>setOpenSideBar(!openSideBar)}>{openSideBar?<i className=" text-white fi fi-tr-circle-xmark"></i>:<i className=" text-white fi fi-tr-sidebar"></i>}</button>
 
