@@ -25,7 +25,7 @@ const Skills = () => {
 
         </div>
       </div>
-      <div className=' max-sm:text-sm text-gray-400 max-lg:text-center font-semibold mt-5 lg:text-lg max-lg:w-120 flex justify-center  '>
+      <div className=' max-sm:text-sm text-gray-400 max-lg:text-center font-semibold mt-5 lg:text-lg max-lg:w-120 max-sm:w-80 flex justify-center  '>
         <p>A comprehensive overview of my technical skills and proficiencies in modern web development technologies
         </p>
       </div>
