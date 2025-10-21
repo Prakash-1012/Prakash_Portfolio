@@ -18,7 +18,7 @@ const Skills = () => {
   return (
     <div id="Skills" data-aos="fade-right" className='w-screen mb-25 h-full '>
       <div className='flex justify-center'>
-        <div className=' max-sm:text-lg lg:flex-wrap justify-center text-transparent bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text max-lg:text-4xl lg:text-6xl animate-gradient font-semibold '>
+        <div className=' max-sm:text-2xl lg:flex-wrap justify-center text-transparent bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text max-lg:text-4xl lg:text-6xl animate-gradient font-semibold '>
           Skills And Expertise
           <div className='lg:mt-5 flex justify-center h-1  bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 lg:text-6xl animate-gradient rounded-full '>
           </div>
