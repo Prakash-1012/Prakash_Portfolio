@@ -16,7 +16,7 @@ import { FaTools } from "react-icons/fa";
 
 const Skills = () => {
   return (
-    <div id="Skills" data-aos="fade-right" className='w-screen mb-25 h-full '>
+    <div id="Skills" data-aos="fade-right" className='w-screen max-sm:mt-5 lg:mb-25 h-full '>
       <div className='flex justify-center'>
         <div className=' max-sm:text-2xl lg:flex-wrap justify-center text-transparent bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text max-lg:text-4xl lg:text-6xl animate-gradient font-semibold '>
           Skills And Expertise
