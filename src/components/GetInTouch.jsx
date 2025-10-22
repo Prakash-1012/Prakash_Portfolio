@@ -119,7 +119,7 @@ const GetInTouch = () => {
                             <textarea name='message' required id='message' className='text-white lg:w-[453px] h-40 border-[2px] p-3 rounded-lg focus:border-indigo-500 border-gray-300 dark:border-gray-700 dark:bg-gray-600 outline-none placeholder:text-gray-400 placeholder:font-semibold max-sm:w-70 max-lg:w-95' type="text" placeholder="Tell me about your project or just say hii!" />
                         </div>
 
-                        <button type='submit' className='lg:w-[453px] mb-5 flex justify-center items-center text-xl text-white font-semibold bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 h-15 rounded-lg hover:opacity-80 animate-gradient max-sm:w-70 max-lg:w-95'>
+                        <button type='submit' className='lg:w-[453px] lg:mb-3 flex justify-center items-center text-xl text-white font-semibold bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 h-15 rounded-lg hover:opacity-80 animate-gradient max-sm:w-70 max-lg:w-95'>
                             Send Message
                         </button>
                     </form>
