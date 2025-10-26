@@ -82,7 +82,7 @@ const Skills = () => {
             <p className='text-md font-semibold'>
               <FaDatabase className='text-blue-400 text-2xl mr-2 inline' />
 
-              MangoDB
+              MongoDB
             </p>
           </div>
         </div>
