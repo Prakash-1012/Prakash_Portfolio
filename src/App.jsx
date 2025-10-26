@@ -7,7 +7,6 @@ import Greetings from './components/Greetings';
 import Connection from './components/Connection';
 import SideBar from './components/SideBar';
 import AboutMe from './components/AboutMe';
-import { Route, Routes } from 'react-router';
 import Skills from './components/Skills';
 import Education from './components/Education';
 import GetInTouch from './components/GetInTouch';
@@ -23,7 +22,8 @@ const App = () => {
   useEffect(() => {
     AOS.init({
       duration: 1000,
-      once: true,
+      once: false,
+      mirror:true,
       offset: 150,
     });
   }, []);

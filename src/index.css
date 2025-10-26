@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 @import "tailwindcss";
 @import '@flaticon/flaticon-uicons/css/all/all.css';
- @tailwind utilities;
+@tailwind utilities;
 
 *{
     font-family: "Manrope","sans-serif";
